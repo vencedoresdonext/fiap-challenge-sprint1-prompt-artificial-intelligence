@@ -1,5 +1,6 @@
-## Integrantes:
+# ⚡ ChatBot GoodWe - Sprint 1 - 2026
 
+## 👥 Integrantes
 - Natan Silva da Costa — RM: 573100  
 - Leonardo Scotti Tobias — RM: 573305  
 - Luca Almeida Lucareli — RM: 569061  
@@ -8,121 +9,112 @@
 
 ---
 
-## Projeto - ChatBot GoodWe
+## 🎯 Problema
 
-O chatbot foi desenvolvido para centralizar e organizar informações essenciais do projeto, permitindo que a equipe tire dúvidas de forma rápida, clara e eficiente.
+O desafio da GoodWe no EV Challenge 2026 está na **falta de sistemas inteligentes integrados** para:
 
-Ele atua como um assistente inteligente, auxiliando no entendimento das regras e funcionamento do sistema de carregamento de veículos elétricos.
+- Gerenciar distribuição de potência elétrica
+- Controlar múltiplos carregadores
+- Realizar faturamento
+- Comunicar dados em tempo real
+
+Isso impacta diretamente a eficiência dos eletropostos e ambientes compartilhados.
 
 ---
 
-### Explicação Detalhada do Código e Variáveis
+## 💡 Proposta do Chatbot
 
-Este código implementa um chatbot utilizando a API do Google Gemini, configurado para atuar como um analista de produtos da GoodWe, respondendo perguntas com base em um contexto técnico pré-definido.
+O ChatBot GoodWe foi desenvolvido como uma ferramenta de apoio operacional 🤖, com foco em:
+
+- Explicar o funcionamento do sistema energético
+- Auxiliar na tomada de decisão
+- Simular distribuição de energia
+- Responder dúvidas técnicas do projeto
+
+### 👤 Persona escolhida
+**Operador técnico/comercial**
+
+Justificativa:
+Esse usuário precisa tomar decisões rápidas sobre energia, carga e distribuição, sendo o principal beneficiado por um chatbot técnico.
 
 ---
 
-## Escolha da LLM
+## 🧠 Tecnologias Utilizadas
 
-Foi escolhido o gemini-2.5-flash pela facilidade de integrar o sistema de perguntas e respostas, além de ser acessivel a testes sua chave de API.
+- 🤖 OpenAI API (gpt-4.0-mini)
+- 🐍 Python
+- 🔗 Integração via biblioteca de IA generativa
 
-## Perguntas
+### 📌 Justificativa técnica
 
-1. A goodwe é uma empresa de que?
-Resposta esperada: De soluções sustentaveis
+- Alta velocidade 
+- Boa compreensão de contexto técnico 
+- Fácil integração 
+- Baixo custo para testes 
 
-2. Qual o desafio que realizaremos?
-Resposta esperada: Definição do desafio abordado anteriormente.
+---
 
-3. Como otimizaremos as etapas do projeto?
-Resposta esperada: Organização, controle e separação em equipes.
+## 🔄 Fluxo do Chatbot
 
-4. Fale o que o projeto deve ter.
-Resposta esperada: Informações das etapas do projeto.
+1. Usuário faz uma pergunta
+2. Pergunta é enviada ao sistema
+3. Modelo de IA processa com base no prompt
+4. Geração da resposta contextualizada
+5. Resposta exibida ao usuário
 
-5. Como organizar a oferta e demanda de potencia eletrica do comercio?
-Resposta esperada: Formas de otimizar o sistema do comercio.
+---
+
+## ❓ Modelo de Teste
+
+### 1. A GoodWe é uma empresa de que?  
+Resposta: Soluções sustentáveis 🌱
+
+### 2. Qual o desafio do projeto?  
+Resposta: Gerenciar e distribuir energia entre carregadores.
+
+### 3. Como otimizar o projeto?  
+Resposta: Organização e divisão de tarefas.
+
+### 4. O que o projeto deve ter?  
+Resposta: Informações, regras e suporte inteligente.
+
+### 5. Como organizar oferta e demanda de energia?  
+Resposta: Distribuir energia entre veículos respeitando limites e prioridades ⚡
+
+---
 
 ## Prompt
 
-Você é um especialista em sistemas energéticos e analista de produtos da empresa GoodWe, focada em soluções de energia limpa e infraestrutura para carregamento de veículos elétricos.
+Você é especialista em sistemas energéticos da GoodWe.
 
-Seu objetivo é projetar, explicar e otimizar um sistema inteligente de gerenciamento de energia para carregadores de veículos elétricos em estabelecimentos comerciais.
+Objetivo:
+Gerenciar energia para carregadores de veículos elétricos.
 
-Contexto do sistema
-A GoodWe desenvolve soluções que integram geração de energia solar com consumo inteligente, visando eficiência energética, redução de custos e sustentabilidade.
+Regras:
+- Não exceder capacidade elétrica
+- Distribuir energia entre veículos
+- Priorizar usuários quando necessário
+- Considerar horário e energia solar
 
-O sistema deve gerenciar a distribuição de energia elétrica disponível entre múltiplos carregadores de veículos elétricos, respeitando as limitações da infraestrutura elétrica existente.
-
-Requisitos do sistema
-O sistema deve:
-
-1. Distribuir energia de forma inteligente entre os carregadores
-2. Evitar sobrecarga da rede elétrica do estabelecimento
-3. Minimizar custos com upgrades de infraestrutura elétrica
-4. Integrar, quando disponível, geração local de energia (ex: solar)
-
-Variáveis que devem ser consideradas (dinamicamente)
-- Consumo total do estabelecimento em tempo real
-- Capacidade máxima contratada da rede elétrica
-- Quantidade de veículos conectados
-- Nível de carga (bateria) de cada veículo
-- Prioridade de carregamento (ex: cliente VIP, emergência, tempo de permanência)
-- Horário do dia (pico vs fora de pico)
-- Geração local de energia (se houver)
-
-Estratégia de distribuição de potência
-- O primeiro veículo conectado recebe uma potência base inicial
-- Conforme novos veículos se conectam, a potência total disponível é redistribuída entre todos
-- O sistema deve ajustar automaticamente a potência de cada carregador em tempo real
-
-Regras de controle
-- Nunca exceder a capacidade máxima contratada
-- Priorizar estabilidade da rede elétrica
-- Reduzir potência em horários de pico
-- Aumentar potência quando houver sobra de energia
-- Considerar prioridade dos usuários na redistribuição
-
-Comportamento esperado da IA
-- Responder perguntas técnicas sobre o sistema
-- Propor algoritmos e lógica de controle (preferencialmente em pseudocódigo ou Python)
-- Explicar decisões de forma clara e objetiva
-- Evitar depender de informações externas ou buscas na internet
-- Sugerir melhorias e otimizações quando relevante
-
-Estilo de resposta
-- Seja técnico e direto
-- Use exemplos práticos quando necessário
-- Estruture respostas com lógica clara (passo a passo, fórmulas ou código)
-
-Contexto adicional da GoodWe
-A GoodWe é uma empresa focada em soluções de energia solar e eficiência energética, oferecendo sistemas seguros, eficientes e de fácil instalação para residências e comércios, permitindo redução de custos e melhor aproveitamento da energia limpa.
+Responda de forma técnica, direta.
 
 ---
 
-## 💡 Considerações Finais
+## 🚀 Considerações Finais
 
-Este projeto demonstra, de forma prática, a aplicação de **Inteligência Artificial Generativa** no suporte a soluções de **energia sustentável**, especialmente no contexto de carregamento inteligente de veículos elétricos.
+O projeto demonstra a aplicação de IA generativa em um cenário real de energia sustentável.
 
-Além de facilitar o acesso à informação para a equipe, o chatbot contribui para:
+Benefícios:
 
-- Melhor compreensão das regras do sistema  
-- Apoio na tomada de decisões técnicas  
-- Organização e padronização das informações do projeto  
+- Melhor entendimento do sistema
+- Apoio técnico
+- Tomada de decisão
 
-Como evolução futura, o projeto pode incluir:
-
-- Interface gráfica (web ou mobile)  
-- Integração com dados reais de consumo energético  
-- Sistema de priorização mais avançado com machine learning  
-- Monitoramento em tempo real dos carregadores  
-
-Dessa forma, o Chatbot GoodWe se torna não apenas uma ferramenta de apoio, mas também uma base sólida para soluções mais completas e escaláveis no setor de energia.
 
 ---
 
-## Fluxograma
+## 📊 Fluxograma
 
-![Fluxograma do Projeto](fluxograma.png)
+![Fluxograma](fluxograma.png)
 
 ---
