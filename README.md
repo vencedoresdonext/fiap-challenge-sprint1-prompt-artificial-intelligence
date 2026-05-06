@@ -22,7 +22,7 @@ Isso impacta diretamente a eficiência dos eletropostos e ambientes compartilhad
 
 ---
 
-## 💡 Proposta do Chatbot
+## Proposta do Chatbot
 
 O ChatBot GoodWe foi desenvolvido como uma ferramenta de apoio operacional 🤖, com foco em:
 
