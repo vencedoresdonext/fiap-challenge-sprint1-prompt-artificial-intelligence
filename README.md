@@ -1,6 +1,6 @@
-# ⚡ ChatBot GoodWe - Sprint 1 - 2026
+#  ChatBot GoodWe - Sprint 1 - 2026
 
-## 👥 Integrantes
+## Integrantes
 - Natan Silva da Costa — RM: 573100  
 - Leonardo Scotti Tobias — RM: 573305  
 - Luca Almeida Lucareli — RM: 569061  
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Problema
+## Problema
 
 O desafio da GoodWe no EV Challenge 2026 está na **falta de sistemas inteligentes integrados** para:
 
@@ -31,7 +31,7 @@ O ChatBot GoodWe foi desenvolvido como uma ferramenta de apoio operacional 🤖,
 - Simular distribuição de energia
 - Responder dúvidas técnicas do projeto
 
-### 👤 Persona escolhida
+### Persona escolhida
 **Operador técnico/comercial**
 
 Justificativa:
@@ -39,13 +39,13 @@ Esse usuário precisa tomar decisões rápidas sobre energia, carga e distribui�
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- 🤖 OpenAI API (gpt-4.0-mini)
-- 🐍 Python
-- 🔗 Integração via biblioteca de IA generativa
+- OpenAI API (gpt-4.0-mini)
+- Python
+- Integração via biblioteca de IA generativa
 
-### 📌 Justificativa técnica
+### Justificativa técnica
 
 - Alta velocidade 
 - Boa compreensão de contexto técnico 
@@ -54,7 +54,7 @@ Esse usuário precisa tomar decisões rápidas sobre energia, carga e distribui�
 
 ---
 
-## 🔄 Fluxo do Chatbot
+## Fluxo do Chatbot
 
 1. Usuário faz uma pergunta
 2. Pergunta é enviada ao sistema
@@ -64,10 +64,10 @@ Esse usuário precisa tomar decisões rápidas sobre energia, carga e distribui�
 
 ---
 
-## ❓ Modelo de Teste
+## Modelo de Teste
 
 ### 1. A GoodWe é uma empresa de que?  
-Resposta: Soluções sustentáveis 🌱
+Resposta: Soluções sustentáveis 
 
 ### 2. Qual o desafio do projeto?  
 Resposta: Gerenciar e distribuir energia entre carregadores.
@@ -79,7 +79,7 @@ Resposta: Organização e divisão de tarefas.
 Resposta: Informações, regras e suporte inteligente.
 
 ### 5. Como organizar oferta e demanda de energia?  
-Resposta: Distribuir energia entre veículos respeitando limites e prioridades ⚡
+Resposta: Distribuir energia entre veículos respeitando limites e prioridades 
 
 ---
 
@@ -100,7 +100,7 @@ Responda de forma técnica, direta.
 
 ---
 
-## 🚀 Considerações Finais
+## Considerações Finais
 
 O projeto demonstra a aplicação de IA generativa em um cenário real de energia sustentável.
 
@@ -113,7 +113,7 @@ Benefícios:
 
 ---
 
-## 📊 Fluxograma
+## Fluxograma
 
 ![Fluxograma](fluxograma.png)
 
