@@ -11,20 +11,19 @@
 
 ## Problema
 
-O desafio da GoodWe no EV Challenge 2026 está na **falta de sistemas inteligentes integrados** para:
+O desafio da GoodWe no EV Challenge 2026 é **a criação de sistemas inteligentes integrados** para:
 
 - Gerenciar distribuição de potência elétrica
 - Controlar múltiplos carregadores
 - Realizar faturamento
 - Comunicar dados em tempo real
 
-Isso impacta diretamente a eficiência dos eletropostos e ambientes compartilhados.
 
 ---
 
 ## Proposta do Chatbot
 
-O ChatBot GoodWe foi desenvolvido como uma ferramenta de apoio operacional 🤖, com foco em:
+O ChatBot GoodWe foi desenvolvido como uma ferramenta de apoio operacional, com foco em:
 
 - Explicar o funcionamento do sistema energético
 - Auxiliar na tomada de decisão
