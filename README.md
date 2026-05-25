@@ -208,20 +208,72 @@ O sistema deve:
 
 As respostas devem ser técnicas, objetivas e claras.
 
+# Casos de Teste — Sprint 2
+
+Os testes abaixo foram realizados com o objetivo de validar o comportamento do chatbot dentro do contexto proposto pela GoodWe no EV Challenge 2026.
+
+| Caso | Pergunta | Resposta Obtida | Avaliação |
+|---|---|---|---|
+| 1 | O que a GoodWe faz? | A GoodWe oferece soluções que não apenas facilitam o carregamento de veículos elétricos, mas também promovem um uso mais inteligente e sustentável da energia, alinhando-se às necessidades específicas de cada cliente e respeitando as limitações da infraestrutura elétrica existente. | Adequada |
+| 2 | Como evitar sobrecarga da rede? | Ao implementar estratégias de monitoramento em tempo real, distribuição dinâmica de potência e priorização de usuários, a GoodWe consegue manter a estabilidade da rede elétrica e otimizar o uso da energia disponível. | Adequada |
+| 3 | Como a energia solar ajuda no sistema? | A energia solar complementa o sistema de carregamento da GoodWe, reduzindo custos, aumentando a eficiência energética e promovendo sustentabilidade através da integração inteligente da geração local de energia. | Adequada |
+| 4 | O que acontece em horário de pico? | Durante horários de pico, o sistema reduz automaticamente a potência distribuída, redistribui energia entre carregadores e prioriza a estabilidade da rede elétrica para evitar sobrecarga. | Adequada |
+| 5 | Como priorizar veículos VIP? | O sistema utiliza redistribuição dinâmica de potência e regras de prioridade para garantir que veículos VIP recebam carregamento preferencial mesmo em situações de alta demanda energética. | Adequada |
+
 ---
 
+# Avaliação dos Resultados
+
+Os testes demonstraram que o chatbot conseguiu:
+
+- Responder dentro do contexto energético da GoodWe;
+- Explicar conceitos técnicos de forma clara e objetiva;
+- Simular cenários relacionados à distribuição inteligente de energia;
+- Auxiliar na tomada de decisão em ambientes com múltiplos carregadores;
+- Manter coerência contextual durante a conversa utilizando histórico de mensagens.
+
+Além disso, o sistema apresentou respostas adequadas relacionadas a:
+- Horários de pico;
+- Integração de energia solar;
+- Balanceamento de carga;
+- Priorização de usuários;
+- Prevenção de sobrecarga elétrica.
+
+---
 # Considerações Finais
 
-O projeto demonstra a aplicação da IA generativa em um cenário real de energia sustentável, evidenciando como a tecnologia pode contribuir para automação, eficiência energética e suporte operacional.
+O projeto desenvolvido para o EV Challenge 2026 demonstra como a inteligência artificial generativa pode ser aplicada em cenários reais de gerenciamento energético, contribuindo diretamente para automação, eficiência operacional e suporte inteligente à tomada de decisão.
 
-## Benefícios
+A solução proposta integra conceitos de:
+- distribuição inteligente de potência;
+- controle de múltiplos carregadores de veículos elétricos;
+- gerenciamento de horários de pico;
+- integração com energia solar;
+- análise contextual utilizando IA.
 
-- Melhor entendimento do sistema;
-- Apoio técnico;
-- Auxílio na tomada de decisão.
+O chatbot desenvolvido foi capaz de manter conversas contextualizadas dentro do escopo da GoodWe, oferecendo respostas técnicas, objetivas e alinhadas às necessidades de ambientes comerciais com infraestrutura de carregamento EV.
 
-Além disso, o projeto analisa como a utilização da IA pode contribuir diretamente para os relatórios do sistema inteligente solicitado pela GoodWe, trazendo automação, praticidade, conforto ao usuário e um importante diferencial sistêmico para a solução proposta.
+Além disso, o sistema implementa:
+- memória conversacional através do histórico de mensagens;
+- análise dinâmica de consumo energético;
+- simulação de cenários de sobrecarga;
+- redistribuição inteligente de potência;
+- suporte operacional para tomada de decisão.
 
+## Benefícios da Solução
+
+- Automatização parcial da análise energética;
+- Melhor entendimento técnico do sistema;
+- Apoio operacional para operadores e gestores;
+- Redução de riscos de sobrecarga elétrica;
+- Melhor aproveitamento da energia solar disponível;
+- Maior eficiência energética;
+- Escalabilidade para múltiplos carregadores;
+- Maior praticidade no monitoramento do sistema.
+
+Os testes realizados demonstraram que o chatbot conseguiu responder adequadamente às principais situações propostas durante o desenvolvimento do projeto, mantendo coerência contextual e fornecendo suporte técnico consistente.
+
+Por fim, o projeto evidencia o potencial da integração entre inteligência artificial e sistemas inteligentes de energia, destacando como soluções baseadas em IA podem contribuir para ambientes mais sustentáveis, eficientes e tecnologicamente avançados.
 ---
 
 # Fluxograma
