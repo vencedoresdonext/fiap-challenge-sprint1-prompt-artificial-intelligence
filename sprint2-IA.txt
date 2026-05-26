@@ -1,0 +1,13 @@
+Integrantes:
+
+Natan Silva da Costa - RM 573100
+Leonardo Scotti Tobias - RM 573305
+Luca Almeida Lucareli - RM 569061
+Henrique Almeida Lucareli - RM 569183
+Enzo Seiji Delgado Tabuchi - RM 573156
+
+Link do Repositório GitHub:
+https://github.com/vencedoresdonext/fiap-challenge-sprint1-prompt-artificial-intelligence/tree/sprint-2
+
+Link do Vídeo de Demonstração:
+https://youtu.be/7-IwAS7QT3E
